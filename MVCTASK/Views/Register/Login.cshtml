@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+    Layout = "~/Views/Shared/_FormLayout.cshtml";
+}
+<style>
+    .container{
+        width:350px;
+        height:200px;
+    }
+    body{
+        background-color: #232b2b;
+    }
+</style>
+<!-- Body of Form starts -->
+<div class="container" height="200px">
+    <form method="post" autocomplete="on">
+       
+        <!---Email ID---->
+        <div class="box">
+            <label for="email" class="fl fontLabel"> Email ID: </label>
+            <div class="fl iconBox"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+            <div class="fr">
+                <input type="email" required name="email" placeholder="Email Id" class="textBox">
+            </div>
+            <div class="clr"></div>
+        </div>
+        <!--Email ID----->
+        <!---Password------>
+        <div class="box">
+            <label for="password" class="fl fontLabel"> Password </label>
+            <div class="fl iconBox"><i class="fa fa-key" aria-hidden="true"></i></div>
+            <div class="fr">
+                <input type="Password" required name="password" placeholder="Password" class="textBox">
+            </div>
+            <div class="clr"></div>
+        </div>
+        <!---Password---->
+     
+        <!--Terms and Conditions------>
+        <div class="box terms">
+            <input type="checkbox" name="Terms" required> &nbsp; Remmber me 
+        </div>
+        <!--Terms and Conditions------>
+        <!---Submit Button------>
+        <div class="box" style="background: #2d3e3f">
+            <input type="Submit" name="Submit" class="submit" value="Login">
+        </div>
+        <!---Submit Button----->
+    </form>
+</div>

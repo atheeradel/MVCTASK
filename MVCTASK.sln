@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCTASK", "MVCTASK\MVCTASK.csproj", "{EAAFE053-1B21-419E-89A4-EBEDCF44CD35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAAFE053-1B21-419E-89A4-EBEDCF44CD35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAFE053-1B21-419E-89A4-EBEDCF44CD35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAFE053-1B21-419E-89A4-EBEDCF44CD35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAFE053-1B21-419E-89A4-EBEDCF44CD35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38169E29-EA0B-49C7-A64F-39CC050715CE}
+	EndGlobalSection
+EndGlobal
